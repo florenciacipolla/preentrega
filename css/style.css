@@ -92,6 +92,10 @@ header{
     margin-block-start: 50px;
     position: relative;
 }
+.div.ul.navbar2{
+    color: black;
+}
+
 
 /*POSITION**/
 
@@ -135,6 +139,11 @@ header{
 .navbar li a:hover{
     color: black;
     text-shadow: 5px 5px 5px grey;
+}
+.navbar2 li :hover{
+    color: black;
+    text-shadow: 5px 5px 5px grey;
+    text-decoration: none;
 }
 .cards-grid{
     width: 50%;
