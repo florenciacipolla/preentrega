@@ -79,7 +79,7 @@ $background-color_5: lightcyan;
 	}
 	.gallery-container{
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		display: block;
 		img{
 			width: 100%;
@@ -132,7 +132,7 @@ $background-color_5: lightcyan;
 	}
 	.gallery-container{
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 3px;
 		img{
 			width: 100%;
@@ -164,9 +164,9 @@ $background-color_5: lightcyan;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 3px;
-		img{
-			width: 450px;
-		}
+	}
+	.boy1 h1{
+		display: none;
 	}
 	.hombreboton{
 		display: none;
@@ -220,9 +220,6 @@ $background-color_5: lightcyan;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 3px;
-		img{
-			width: 300px;
-		}
 	}
 	.hombreboton{
 		display: none;

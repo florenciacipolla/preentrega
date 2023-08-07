@@ -339,7 +339,7 @@ body {
   }
   .gallery-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     display: block;
   }
   .gallery-container img {
@@ -392,7 +392,7 @@ body {
   }
   .gallery-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 3px;
   }
   .gallery-container img {
@@ -424,8 +424,8 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 3px;
   }
-  .gallery-container img {
-    width: 450px;
+  .boy1 h1 {
+    display: none;
   }
   .hombreboton {
     display: none;
@@ -474,9 +474,6 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 3px;
-  }
-  .gallery-container img {
-    width: 300px;
   }
   .hombreboton {
     display: none;
