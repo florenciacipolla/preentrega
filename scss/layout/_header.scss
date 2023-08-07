@@ -1,1 +1,126 @@
+.header {
+	width: 100%;
+	padding-bottom: 1.4375rem;
+	width: 100%;
+	padding-bottom: 1.4375rem;
+	font-family: $font-family_1;
+}
+.header-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: .875rem;
+	padding: .625rem 0rem;
+	display: flex;
+	justify-content: space-between;
+	ul {
+		display: flex;
+		list-style-type: none;
+		gap: 1.25rem;
+		padding-right: .625rem;
+		li {
+			a {
+				text-decoration: none;
+				font-family: $font-family_1;
+				color: $color_3;
+				font-size: .875rem;
+			}
+		}
+	}
+	div {
+		span {
+			text-decoration: none;
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: .875rem;
+		}
+	}
+}
+.header-nav {
+	justify-content: space-between;
+	color: $color_2;
+	background-color: $background-color_1;
+	font-family: $font-family_2;
+	align-items: center;
+	padding: .625rem 0px;
+	ul {
+		list-style: none;
+	}
+	div {
+		ul {
+			li {
+				a {
+					text-decoration: none;
+					color: $color_3;
+					color: $color_4;
+				}
+			}
+		}
+	}
+	h1 {
+		font-size: 55px;
+		padding-bottom: .625rem;
+	}
+}
+.navbar {
+	display: flex;
+	gap: 1.25rem;
+	list-style: none;
+	flex-direction: row;
+	li {
+		a {
+			text-decoration: none;
+			font-size: 20px;
+			color: $color_3;
+			&:hover {
+				color: $color_3;
+				text-shadow: 5px 5px 5px grey;
+			}
+		}
+	}
+}
 
+
+.div.ul.navbar2 {
+	color: $color_3;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: $background-color_2;
+	position: absolute;
+}
+.box-color {
+	background-color: $background-color_2;
+	position: relative;
+	top: 250px;
+	left: 250px;
+	font-size: 35px;
+}
+.navbar2 {
+	display: flex;
+	gap: 20px;
+	padding-right: .625rem;
+	list-style: none;
+	li {
+		a {
+			&:hover {
+				color: $color_3;
+				text-shadow: 5px 5px 5px grey;
+			}
+		}
+		&:hover {
+			color: $color_3;
+			text-shadow: 5px 5px 5px grey;
+			text-decoration: none;
+		}
+	}
+}
+.hero.hero-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	margin: 10px;
+	border: 5px solid black;
+}

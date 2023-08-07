@@ -1,0 +1,119 @@
+.cards3 {
+	img {
+		display: inline-block;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+.cards-grid {
+	text-align: center;
+	font-family: $font-family_2;
+	margin-block-start: 50px;
+	position: relative;
+	width: 50%;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: auto;
+	display: grid;
+	align-items: center;
+	width: 100%;
+	grid-template-columns: auto;
+    .clase-icon {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		display: grid;
+		grid-template-columns: auto;
+		height: 100px;
+	}
+}  
+.section-principal {
+	text-align: center;
+	background-color: $background-color_2;
+	width: 100%;
+	height: 750px;
+	font-size: 35px;
+	font-family: $font-family_2;
+	background-image: url(https://images.unsplash.com/photo-1594737626072-90dc274bc2bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80);
+	background-position: 0px 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+body{
+	background: linear-gradient(to left top, lightpink, lightsalmon);
+}
+.header-nav{
+	animation: cambiar 7s infinite;
+}
+.button{
+	text-align: center;
+}
+.cards{
+	text-align: center;
+}
+.child{
+	text-align: center;
+	font-size: 20px;
+}
+.header-baby{
+	text-align: center;
+	font-size: 25px;
+}
+.cards33{
+	margin: 10px;
+	border: 5px solid black;
+	flex: 30%;
+	flex-direction: column;
+}
+.cards33 .boton{
+	background-color: grey;
+	padding: 10px;
+}
+.cardsmujer1{
+	text-align: center;
+	justify-content: center;
+	gap: 2rem;
+}
+.textoencima{
+	position: absolute;
+	left: 25%;
+	top: 250%;
+	font-size: 25px;
+	$font-family_2: "Roboto", sans-serif;
+}
+.cards40{
+	text-align: center;
+}
+.gallery-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+}
+.gallery__item1{
+	padding-top: 15%;
+}
+.gallery__item2{
+	padding-top: 15%;
+}
+.hombreboton{
+	position: absolute;
+	left: 40%;
+	top: 60%;
+	font-size: 25px;
+	$font-family_2: "Roboto", sans-serif;
+	animation: none;
+}
+.description{
+	position: absolute;
+	left: 40%;
+	top: 75%;
+	font-size: 30px;
+	$font-family_2: "Roboto", sans-serif;
+}
+.trescards{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px;
+	place-items: center;
+}

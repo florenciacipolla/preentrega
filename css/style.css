@@ -112,11 +112,20 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin: 10px;
+  border: 5px solid black;
+}
+
+#C4D7B2 #E1ECC8 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .cards3 img {
+  display: inline-block;
+  flex-direction: column;
   width: 100%;
-  height: 750px;
 }
 
 .cards-grid {
@@ -158,8 +167,6 @@
 
 body {
   background: linear-gradient(to left top, lightpink, lightsalmon);
-  width: 100%;
-  height: 100vh;
 }
 
 .header-nav {
@@ -182,6 +189,77 @@ body {
 .header-baby {
   text-align: center;
   font-size: 25px;
+}
+
+.cards33 {
+  margin: 10px;
+  border: 5px solid black;
+  flex: 30%;
+  flex-direction: column;
+}
+
+.cards33 .boton {
+  background-color: grey;
+  padding: 10px;
+}
+
+.cardsmujer1 {
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.textoencima {
+  position: absolute;
+  left: 25%;
+  top: 250%;
+  font-size: 25px;
+}
+
+.cards40 {
+  text-align: center;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.gallery__item1 {
+  padding-top: 15%;
+}
+
+.gallery__item2 {
+  padding-top: 15%;
+}
+
+.hombreboton {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  font-size: 25px;
+  animation: none;
+}
+
+.description {
+  position: absolute;
+  left: 40%;
+  top: 75%;
+  font-size: 30px;
+}
+
+.trescards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  place-items: center;
+}
+
+.button {
+  position: relative;
+  font-size: 25px;
+  top: -55%;
 }
 
 @keyframes cambiar {
@@ -219,10 +297,25 @@ body {
   }
   .header-nav {
     text-align: left;
-    font-size: 8px;
+    font-size: 16px;
   }
-  .button {
-    overflow: hidden;
+  .header-div-hombre {
+    text-align: left;
+    font-size: 16px;
+    flex-direction: column;
+  }
+  .navbar-hombre {
+    text-align: right;
+    font-size: 16px;
+    flex-direction: column;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    display: block;
+  }
+  .gallery-container img {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -237,10 +330,56 @@ body {
   .button {
     overflow: hidden;
   }
+  .header-div-hombre {
+    text-align: left;
+    font-size: 16px;
+    flex-direction: column;
+  }
+  .navbar-hombre {
+    text-align: right;
+    font-size: 16px;
+    flex-direction: column;
+  }
+  .textoencima {
+    display: none;
+  }
+  .navbar-mujer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+  }
+  .gallery-container img {
+    width: 100%;
+  }
 }
 @media (max-width: 475px) {
   .navbar.nav-navbar {
     flex-direction: column;
+  }
+  .textoencima {
+    display: none;
+  }
+  .description {
+    position: absolute;
+    left: 40%;
+    top: 95%;
+    font-size: 20px;
+    animation: none;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+  }
+  .gallery-container img {
+    width: 450px;
+  }
+  .hombreboton {
+    display: none;
   }
 }
 @media (max-width: 425px) {
@@ -264,14 +403,28 @@ body {
   .navbar.nav-navbar-hombre {
     flex-direction: column;
     text-align: left;
-    font-size: 8px;
+    font-size: 16px;
   }
   .cards img {
     width: 80%;
     position: relative;
   }
   .header-nav ul {
-    font-size: 10px;
+    font-size: 16px;
+  }
+  .textoencima {
+    display: none;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+  }
+  .gallery-container img {
+    width: 300px;
+  }
+  .hombreboton {
+    display: none;
   }
 }
 @media (max-width: 375px) {
@@ -287,7 +440,7 @@ body {
   .navbar {
     flex-direction: column;
     color: black;
-    font-size: 10px;
+    font-size: 16px;
   }
   .section-principal {
     font-size: 20px;
@@ -295,6 +448,30 @@ body {
   }
   .navbar.nav-navbar {
     flex-direction: column;
+  }
+  .textoencima {
+    display: none;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+  }
+  .gallery-container img {
+    width: 300px;
+  }
+  .hombreboton {
+    display: none;
+  }
+  .description {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    font-size: 18px;
+    animation: none;
+  }
+  .trescards img {
+    width: 300px;
   }
 }
 @media (max-width: 320px) {
@@ -310,15 +487,44 @@ body {
   .navbar {
     flex-direction: column;
     color: black;
-    font-size: 8px;
+    font-size: 16px;
   }
   .section-principal {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
   .header-nav {
     background-color: lightcyan;
     color: black;
+  }
+  .textoencima {
+    display: none;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+  }
+  .gallery-container img {
+    width: 300px;
+  }
+  .hombreboton {
+    display: none;
+  }
+  .description {
+    position: absolute;
+    left: 30%;
+    top: 110%;
+    font-size: 18px;
+    animation: none;
+  }
+  .trescards {
+    text-align: center;
+    font-size: 16px;
+    display: grid;
+  }
+  .trescards img {
+    width: 300px;
   }
 }
 
