@@ -85,12 +85,27 @@ $background-color_5: lightcyan;
 			width: 100%;
 		}
 	}
+	.gallery__item1 img{
+		width: 100%;
+	}
+	.cards11 img{
+		display: inline-block;
+	}
+	.header-nav h1{
+		text-align: left;
+	}
 }
 @media (max-width:768px) {
 	header {
 		background-color: $background-color_4;
 		flex-direction: column;
 		gap: 20px;
+	}
+	.cards11 img{
+		display: inline-block;
+	}
+	.header-nav h1{
+		text-align: left;
 	}
 	.navbar.nav-navbar {
 		flex-direction: column;
@@ -128,6 +143,12 @@ $background-color_5: lightcyan;
 	.navbar.nav-navbar {
 		flex-direction: column;
 	}
+	.cards11 img{
+		display: inline-block;
+	}
+	.header-nav h1{
+		text-align: left;
+	}
 	.textoencima{
 		display: none;
 	}
@@ -155,6 +176,12 @@ $background-color_5: lightcyan;
 @media (max-width:425px) {
 	header {
 		flex-direction: column;
+	}
+	.cards11 img{
+		display: inline-block;
+	}
+	.header-nav h1{
+		text-align: left;
 	}
 	.navbar2 {
 		flex-direction: column;
@@ -201,6 +228,16 @@ $background-color_5: lightcyan;
 		display: none;
 	}
 }
+.cards10 img{
+	width: 50%;
+	top: 10px
+}
+.cards12 img{
+	width: 50%;
+}
+.cards11 img{
+	width: 50%;
+}
 @media (max-width:375px) {
 	header {
 		background-color: $background-color_2;
@@ -215,6 +252,10 @@ $background-color_5: lightcyan;
 		flex-direction: column;
 		color: $color_3;
 		font-size: 16px;
+	}
+	}
+	.header-nav h1{
+		text-align: left;
 	}
 	.section-principal {
 		font-size: 20px;
@@ -250,7 +291,16 @@ $background-color_5: lightcyan;
 			width: 300px;
 		}
 	}
-}
+	.cards10 img{
+		width: 50%;
+		top: 10px
+	}
+	.cards12 img{
+		width: 50%;
+	}
+	.cards11 img{
+		width: 50%;
+	}
 @media (max-width:320px) {
 	header {
 		background-color: $background-color_2;
@@ -260,6 +310,10 @@ $background-color_5: lightcyan;
 		flex-direction: column;
 		text-align: center;
 		font-size: 15px;
+	}
+	}
+	.header-nav h1{
+		text-align: left;
 	}
 	.navbar {
 		flex-direction: column;
@@ -304,4 +358,13 @@ $background-color_5: lightcyan;
 			width: 300px;
 		}
 	}
-}
+	.cards10 img{
+		width: 50%;
+		top: 10px
+	}
+	.cards12 img{
+		width: 50%;
+	}
+	.cards11 img{
+		width: 50%;
+	}

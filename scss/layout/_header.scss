@@ -98,10 +98,7 @@
 	font-size: 35px;
 }
 .navbar2 {
-	display: flex;
-	gap: 20px;
-	padding-right: .625rem;
-	list-style: none;
+	@mixin flex{};
 	li {
 		a {
 			&:hover {

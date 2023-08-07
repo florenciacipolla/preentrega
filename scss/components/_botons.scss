@@ -4,3 +4,6 @@
 	top: -55%;
 	$font-family_2: "Roboto", sans-serif;
 }
+.comprar1{
+	@extend .button
+}
