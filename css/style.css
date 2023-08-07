@@ -116,6 +116,11 @@
   box-sizing: border-box;
 }
 
+.gallery-container {
+  width: 100%;
+  text-align: center;
+}
+
 .cards3 img {
   display: inline-block;
   flex-direction: column;
@@ -231,7 +236,6 @@ body {
 .hombreboton {
   position: absolute;
   left: 40%;
-  top: 60%;
   font-size: 25px;
   animation: none;
 }
@@ -290,17 +294,6 @@ body {
   top: -55%;
 }
 
-@keyframes cambiar {
-  0% {
-    margin-top: 0;
-  }
-  20% {
-    margin-top: 0;
-  }
-  25% {
-    margin-top: -40px;
-  }
-}
 @media (max-width: 1024px) {
   header {
     background-color: white(144, 236, 238);
@@ -639,6 +632,18 @@ body {
 
 .cards11 img {
   width: 50%;
+}
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
