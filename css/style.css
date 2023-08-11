@@ -279,12 +279,48 @@ body {
   padding: 10px;
 }
 
-.cards10 p {
+.cards100 p {
   text-align: center;
   font-size: 18px;
 }
 
-.cards10 img {
+.cards100 img {
+  position: relative;
+  border: 3px solid black;
+  padding: 10px;
+  top: 10px;
+}
+
+.cards101 p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.cards101 img {
+  position: relative;
+  border: 3px solid black;
+  padding: 10px;
+  top: 10px;
+}
+
+.cards102 p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.cards102 img {
+  position: relative;
+  border: 3px solid black;
+  padding: 10px;
+  top: 10px;
+}
+
+.cards102 p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.cards102 img {
   position: relative;
   border: 3px solid black;
   padding: 10px;
