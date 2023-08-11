@@ -62,11 +62,14 @@
 		padding-bottom: .625rem;
 	}
 }
-.navbar {
-	display: flex;
-	gap: 1.25rem;
+@mixin flex{
+    gap: 1.25rem;
 	list-style: none;
 	flex-direction: row;
+}
+.navbar{
+	display: flex;
+	@include flex;
 	li {
 		a {
 			text-decoration: none;
@@ -80,7 +83,9 @@
 	}
 }
 
-
+.ul.navbar.nav-navbar{
+	color: $color_3;
+}
 .div.ul.navbar2 {
 	color: $color_3;
 }
@@ -98,7 +103,10 @@
 	font-size: 35px;
 }
 .navbar2 {
-	@mixin flex{}
+	display: flex;
+	gap: 20px;
+	padding-right: .625rem;
+	list-style: none;
 	li {
 		a {
 			&:hover {

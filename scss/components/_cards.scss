@@ -2,13 +2,7 @@
 	width: 100%;
 	text-align: center;
 }
-.cards3 {
-	img {
-		display: inline-block;
-		flex-direction: column;
-		width: 100%;
-	}
-}
+
 .cards-grid {
 	text-align: center;
 	font-family: $font-family_2;
@@ -89,13 +83,11 @@ body{
 .cards40{
 	text-align: center;
 }
-.gallery-container{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 5px;
-}
 .gallery__item1{
 	padding-top: 15%;
+}
+.row.row-cols-1.row-cols-md-3.g-4{
+	padding: 5%;
 }
 .gallery__item2{
 	padding-top: 15%;

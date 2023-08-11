@@ -4,6 +4,7 @@
 		justify-content: space-around;
 	}
 	.navbar2 {
+		flex-direction: column;
 		li {
 			a {
 				color: $color_5;

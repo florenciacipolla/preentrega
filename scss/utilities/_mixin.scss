@@ -1,6 +1,5 @@
 @mixin flex{
-    display: flex;
-	gap: 20px;
-	padding-right: .625rem;
+    gap: 1.25rem;
 	list-style: none;
+	flex-direction: row;
 }
