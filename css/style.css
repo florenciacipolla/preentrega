@@ -428,6 +428,9 @@ body {
   .hombreboton {
     display: none;
   }
+  .header-hombre {
+    width: 655px;
+  }
 }
 @media (max-width: 425px) {
   header {
@@ -475,6 +478,9 @@ body {
   }
   .hombreboton {
     display: none;
+  }
+  .header-hombre {
+    width: 450px;
   }
 }
 .cards10 img {
@@ -624,6 +630,9 @@ body {
 }
 .trescards img {
   width: 300px;
+}
+.trescards .header-hombre {
+  width: 350px;
 }
 
 .cards10 img {

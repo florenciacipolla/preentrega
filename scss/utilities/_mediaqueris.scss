@@ -139,6 +139,9 @@
 	.hombreboton{
 		display: none;
 	}
+	.header-hombre{
+		width: 655px;
+	}
 }
 
 @media (max-width:425px) {
@@ -192,6 +195,9 @@
 	.hombreboton{
 		display: none;
 	}
+	.header-hombre{
+		width: 450px;
+	}
 }
 .cards10 img{
 	width: 50%;
@@ -203,6 +209,7 @@
 .cards11 img{
 	width: 50%;
 }
+
 @media (max-width:375px) {
 	header {
 		background-color: $background-color_2;
@@ -321,6 +328,9 @@
 		display: grid;
 		img{
 			width: 300px;
+		}
+		.header-hombre{
+			width: 350px;
 		}
 	}
 	.cards10 img{
